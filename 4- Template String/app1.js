@@ -1,7 +1,7 @@
-// window.onload = function() {
-//     var temp = `My name is Abida Ali`
-//     console.log(temp);
-// }
+window.onload = function() {
+    var temp = `My name is Abida Ali`
+    console.log(temp);
+}
 
 //second example
 
@@ -18,4 +18,12 @@ window.onload = function() {
 //third prob
 
 let carName = "Corolla";
-console.log(`this is a ${carName} car.`)
+console.log(`this is a ${carName} car.`);
+
+//
+window.onload = function() {
+    function myName(names, age) {
+        console.log(`my name is ${names} and i am ${age} years old.`);
+    }
+    myName("Abida Aly", 22);
+}
